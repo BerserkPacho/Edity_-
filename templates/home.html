@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Testing 
+{% endblock %}
+
+{% block main %}
+
+
+  <p class="text-center bold fs-1"> Make changes here!</p>
+<div class="container">
+  <textarea  id="changeMaker">
+	
+  </textarea>
+      
+   
+</div>
+ 
+
+<script>
+  let textArea = document.querySelector("#changeMaker");
+      textArea.addEventListener("input", (e)=> {
+	  console.log(e); 
+      })
+
+
+</script> 
+{% endblock %}
