@@ -19,10 +19,10 @@ body{
      justify-content: center;
       
 }
-.container > form{
+ .container > form{
     position:relative
     top:50%; 
-} 
+}  
 #changeMaker {
     
     font-weight: bold;
@@ -56,13 +56,3 @@ body{
     color:var(--input-color);
   
 }
-form{
-    position:relative; 
-    justify-content:center;
-    background-color:red; 
-    
-    }
-
-form input{
-    width:2em; 
-} 
